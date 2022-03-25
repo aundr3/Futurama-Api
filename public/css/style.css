@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+
+body {
+    background-color: #008ea0ff;
+}
+
+h1{
+    color: #c71000ff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.nav-link {
+    color: #ade2d0ff; 
+}
+
+.nav-link:hover {
+    color: #ff95a8ff;
+}
+
+.home-section {
+    margin-top: 50px;
+}
+
+.home-text {
+    color: #ff95a8ff;
+}
+
+.characters-link {
+    text-decoration: none;
+}
+
+.characters-text {
+    color: #ff95a8ff;
+}

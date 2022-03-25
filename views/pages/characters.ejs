@@ -1,0 +1,15 @@
+<%- include('../partials/header.ejs'); %> 
+
+<section class="section section-characters">
+    <div class="container">
+        <% data.forEach(item=> { %>
+                <img class="character.img fluid-img" src="<%= item.images.main %>" alt="<%= item.name.first %>">
+                <p class="characters-text text-center" ><%= item.name.first %> <%= item.name.middle %> <%= item.name.last %></p>
+                <p class="characters-text text-center" >Gender: <%= item.gender %> </p>
+                <p class="characters-text text-center" >Home Planet: <%= item.homePlanet %></p>
+                <p class="characters-text text-center" >Occupation: <%= item.occupation %> </p>
+        <% }) %>
+    </div>
+</section>
+
+<%- include('../partials/footer.ejs'); %> 
